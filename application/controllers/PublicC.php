@@ -29,7 +29,7 @@ class PublicC extends CI_Controller{
 				header('Location:http://'.$center);
 				
 			}
-			$mes = "用户名或密码错";
+			$mes = "用户名或密码错.";
 		}
 
 		//如果不是登陆操作，跳转至登陆页面
